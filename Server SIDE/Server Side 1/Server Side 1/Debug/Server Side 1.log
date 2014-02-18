@@ -1,0 +1,19 @@
+﻿Build started 2/17/2014 12:35:03 PM.
+     1>Project "E:\SOFTWARE\Network Programming\Server Side 1\Server Side 1\Server Side 1.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _MBCS /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\Server Side 1.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "Server Side 1.cpp"
+         Server Side 1.cpp
+     1>e:\software\network programming\tcp lib\tcp lib\tcp.h(2): warning C4005: '_WIN32_WINNT' : macro redefinition
+                 c:\program files (x86)\windows kits\8.1\include\shared\sdkddkver.h(200) : see previous definition of '_WIN32_WINNT'
+     1>e:\software\network programming\movie lib\movie lib\dbc.h(20): warning C4005: 'ENSURE' : macro redefinition
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\atlmfc\include\afx.h(387) : see previous definition of 'ENSURE'
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\SOFTWARE\Network Programming\Server Side 1\Debug\Server Side 1.exe" /INCREMENTAL /NOLOGO /LIBPATH:"E:\SOFTWARE\Network Programming\Movies LIB\Debug" /LIBPATH:"E:\SOFTWARE\Network Programming\TCP LIB\Debug" /LIBPATH:"E:\SOFTWARE\Network Programming\MovieDB LIB\Debug" /LIBPATH:"E:\SOFTWARE\Network Programming\ClientDB LIB\Debug" /LIBPATH:"E:\SOFTWARE\Network Programming\Movie LIB\Debug" /LIBPATH:"E:\SOFTWARE\Network Programming\Client LIB\Debug" "Movie LIB.lib" "Client LIB.lib" "Movies LIB.lib" "MovieDB LIB.lib" "ClientDB LIB.lib" "TCP LIB.lib" /NODEFAULTLIB:mfc120ud.lib /NODEFAULTLIB:mfcs120ud.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"E:\SOFTWARE\Network Programming\Server Side 1\Debug\Server Side 1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\SOFTWARE\Network Programming\Server Side 1\Debug\Server Side 1.lib" /MACHINE:X86 "Debug\Server Side 1.res"
+         "Debug\Server Side 1.obj"
+         Debug\stdafx.obj
+         Server Side 1.vcxproj -> E:\SOFTWARE\Network Programming\Server Side 1\Debug\Server Side 1.exe
+     1>Done Building Project "E:\SOFTWARE\Network Programming\Server Side 1\Server Side 1\Server Side 1.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.07

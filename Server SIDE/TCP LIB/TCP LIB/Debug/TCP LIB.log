@@ -1,0 +1,15 @@
+﻿Build started 2/17/2014 7:54:20 PM.
+     1>Project "E:\SOFTWARE\Network Programming\TCP LIB\TCP LIB\TCP LIB.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt TCP.cpp
+         TCP.cpp
+     1>e:\software\network programming\movie lib\movie lib\dbc.h(20): warning C4005: 'ENSURE' : macro redefinition
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\atlmfc\include\afx.h(387) : see previous definition of 'ENSURE'
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"E:\SOFTWARE\Network Programming\TCP LIB\Debug\TCP LIB.lib" /NOLOGO Debug\TCP.obj
+         TCP LIB.vcxproj -> E:\SOFTWARE\Network Programming\TCP LIB\Debug\TCP LIB.lib
+     1>Done Building Project "E:\SOFTWARE\Network Programming\TCP LIB\TCP LIB\TCP LIB.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.88

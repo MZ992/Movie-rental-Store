@@ -1,0 +1,25 @@
+﻿Build started 2/17/2014 10:13:02 AM.
+     1>Project "E:\MOURAD__MX\CLIENT SIDE\Client Side\Client Side\Client Side.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _MBCS /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\Client Side.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\atlmfc\include\afx.h(38): warning C4996: 'MBCS_Support_Deprecated_In_MFC': MBCS support in MFC is deprecated and may be removed in a future version of MFC.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\atlmfc\include\afx.h(33) : see declaration of 'MBCS_Support_Deprecated_In_MFC'
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _MBCS /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\Client Side.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "Client Side.cpp"
+         Client Side.cpp
+     1>e:\mourad__mx\client side\tcp lib\tcp lib\tcp.h(2): warning C4005: '_WIN32_WINNT' : macro redefinition
+                 c:\program files (x86)\windows kits\8.1\include\shared\sdkddkver.h(200) : see previous definition of '_WIN32_WINNT'
+     1>e:\mourad__mx\client side\movie lib\movie lib\dbc.h(20): warning C4005: 'ENSURE' : macro redefinition
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\atlmfc\include\afx.h(387) : see previous definition of 'ENSURE'
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D _AFXDLL /l"0x0409" /nologo /fo"Debug\Client Side.res" "Client Side.rc" 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\MOURAD__MX\CLIENT SIDE\Client Side\Debug\Client Side.exe" /INCREMENTAL /NOLOGO /LIBPATH:"E:\MOURAD__MX\CLIENT SIDE\TCP LIB\Debug" /LIBPATH:"E:\MOURAD__MX\CLIENT SIDE\Movies LIB\Debug" /LIBPATH:"E:\MOURAD__MX\CLIENT SIDE\Movie LIB\Debug" /LIBPATH:"E:\MOURAD__MX\CLIENT SIDE\Client LIB\Debug" "Movie LIB.lib" "Client LIB.lib" "Movies LIB.lib" "TCP LIB.lib" /NODEFAULTLIB:mfc120ud.lib /NODEFAULTLIB:mfcs120ud.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"E:\MOURAD__MX\CLIENT SIDE\Client Side\Debug\Client Side.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\MOURAD__MX\CLIENT SIDE\Client Side\Debug\Client Side.lib" /MACHINE:X86 "Debug\Client Side.res"
+         "Debug\Client Side.obj"
+         Debug\stdafx.obj
+         Client Side.vcxproj -> E:\MOURAD__MX\CLIENT SIDE\Client Side\Debug\Client Side.exe
+     1>Done Building Project "E:\MOURAD__MX\CLIENT SIDE\Client Side\Client Side\Client Side.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.32
